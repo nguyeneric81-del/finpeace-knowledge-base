@@ -55,4 +55,5 @@ graph TD
 
 ## 🛠️ Bộ Công Cụ & Quản Trị
 *   Hướng dẫn chạy các công cụ tự động hóa định giá & phân tích vĩ mô nằm tại thư mục [tools/](tools/).
+*   [Tích hợp Cloudflare LLM (Kimi miễn phí)](docs/ai-infrastructure-cloudflare.md): Hướng dẫn kết nối và code mẫu kết nối AI miễn phí.
 *   [Hướng dẫn Đẩy Kho Tri Thức lên GitHub](docs/github-guide.md): Quy trình khởi tạo Git và quản trị kho tri thức.
