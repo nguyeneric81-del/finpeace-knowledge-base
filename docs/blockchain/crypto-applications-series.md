@@ -37,7 +37,7 @@ Chào mừng bạn đến với **Series học tập ứng dụng công nghệ C
 *   **Tại sao giá trị thấp?**: Hệ thống ngân hàng truyền thống và ví điện tử (Momo, Apple Pay, Venmo) hiện nay đã xử lý chuyển tiền nội địa cực kỳ nhanh, an toàn và gần như miễn phí. Crypto chỉ thực sự có giá trị khi chuyển tiền xuyên biên giới (cross-border) nhưng gặp rào cản lớn về biến động giá mạnh.
 *   **Điểm cốt lõi cho người mới**: Hiểu cách hoạt động của địa chỉ ví, khóa công khai/bí mật và cách xác nhận giao dịch trên chuỗi.
 
-### 📝 Bài 2: Meme Coins & Đầu cơ Airdrop
+### 📝 [Bài 2: Meme Coins & Đầu cơ Airdrop](lessons/lesson-2-memecoins-nfts.md)
 *   **Bản chất**: Mua các token không có ứng dụng thực tiễn được tạo ra theo trào lưu (Dogecoin, Pepe) hoặc làm nhiệm vụ để săn thưởng token miễn phí.
 *   **Tại sao giá trị thấp?**: Dựa trên "Lý thuyết kẻ ngốc hơn" (Greater Fool Theory) — bạn mua chỉ với hy vọng bán lại giá cao hơn cho người khác. Không tạo ra dòng tiền hay của cải vật chất cho xã hội.
 *   **Điểm cốt lõi cho người mới**: Nhận diện rủi ro FOMO và cách phân bổ tỷ trọng cực kỳ nhỏ (quỹ xổ số) để bảo vệ Tháp tài sản.
