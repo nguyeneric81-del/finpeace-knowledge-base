@@ -42,7 +42,7 @@ Chào mừng bạn đến với **Series học tập ứng dụng công nghệ C
 *   **Tại sao giá trị thấp?**: Dựa trên "Lý thuyết kẻ ngốc hơn" (Greater Fool Theory) — bạn mua chỉ với hy vọng bán lại giá cao hơn cho người khác. Không tạo ra dòng tiền hay của cải vật chất cho xã hội.
 *   **Điểm cốt lõi cho người mới**: Nhận diện rủi ro FOMO và cách phân bổ tỷ trọng cực kỳ nhỏ (quỹ xổ số) để bảo vệ Tháp tài sản.
 
-### 📝 Bài 3: GameFi (Play-to-Earn) & NFT Sưu tầm
+### 📝 [Bài 3: GameFi (Play-to-Earn) & NFT Sưu tầm](lessons/lesson-3-gamefi-playtoearn.md)
 *   **Bản chất**: Chơi game kiếm tiền (Axie Infinity) hoặc mua các bức ảnh kỹ thuật số độc bản làm avatar.
 *   **Tại sao giá trị thấp?**: Mô hình GameFi thời kỳ đầu phụ thuộc vào việc người chơi mới nạp tiền để trả thưởng cho người chơi cũ (Ponzinomics). Khi dòng tiền mới dừng lại, nền kinh tế game sụp đổ.
 *   **Điểm cốt lõi cho người mới**: Phân biệt giữa "giá trị sưu tầm nghệ thuật thực sự" và "đầu cơ theo sóng".
