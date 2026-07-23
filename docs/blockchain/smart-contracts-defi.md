@@ -54,3 +54,35 @@ Tài chính Phi tập trung (DeFi) sử dụng hợp đồng thông minh để t
 *   **Sàn giao dịch phi tập trung (DEX - Decentralized Exchanges)**: Sử dụng mô hình tạo lập thị trường tự động (AMM - Automated Market Makers) như Uniswap, PancakeSwap cho phép người dùng tự do hoán đổi (swap) tài sản mà không cần sổ lệnh (orderbook).
 *   **Giao thức Cho vay (Lending Protocols)**: Cho vay thế chấp tài sản số (như Aave, Compound), lãi suất được tự động điều chỉnh theo cung cầu cung cấp bởi thuật toán của smart contract.
 *   **Token hóa tài sản thế giới thực (RWA - Real World Assets)**: Chuyển đổi các tài sản truyền thống (vàng, bất động sản, chứng chỉ tiền gửi) thành các token ERC-20/ERC-721 trên blockchain, tạo ra các cơ hội đầu tư tích sản linh hoạt với dòng vốn cực kỳ nhỏ (phù hợp với chiến lược Wealth Planning của FinPeace).
+
+---
+
+## 5. Phân Loại Tài Khoản & Cơ Chế Thực Thi Trên Ethereum
+
+Để tương tác với Hợp đồng thông minh và thực thi các giao thức DeFi, mạng lưới Ethereum chia cấu trúc tài khoản thành hai loại chính:
+
+### A. EOA (Externally Owned Account - Tài khoản sở hữu ngoài)
+*   *Đặc điểm*: Được tạo ra trực tiếp bởi người dùng (qua ví MetaMask, Ledger, v.v.). 
+*   *Quản lý*: Quản lý bằng cặp khóa công khai - bảo mật (Public/Private Key). Người giữ khóa private key có toàn quyền kiểm soát số dư của ví.
+*   *Mã nguồn*: Không chứa mã code lập trình (smart contract code).
+*   *Hoạt động*: Có thể gửi giao dịch chuyển tiền (ETH) hoặc gửi giao dịch chứa dữ liệu để kích hoạt Hợp đồng thông minh.
+
+### B. CA (Contract Account - Tài khoản hợp đồng)
+*   *Đặc điểm*: Được tạo ra khi một hợp đồng thông minh được triển khai thành công lên blockchain.
+*   *Địa chỉ*: Sở hữu một địa chỉ ví duy nhất trên chuỗi (Smart Contract Address) để định vị mã nguồn của nó.
+*   *Quản lý*: **Không sở hữu khóa bảo mật (Private Key)**. Hoạt động của CA hoàn toàn tuân thủ theo logic lập trình được viết sẵn trong mã Solidity của nó.
+*   *Hoạt động*: Chỉ có thể thực thi mã, cập nhật biến trạng thái (state variables), hoặc gọi đến các CA khác khi nhận được một giao dịch kích hoạt từ một tài khoản EOA (hoặc một CA khác).
+
+---
+
+## 6. Phí Giao Dịch (Gas) & Các Giao Thức Phụ Trợ (Swarm, Whisper)
+
+### ⛽ Cơ chế phí giao dịch: Ether và Gas
+*   **Ether (ETH)**: Đồng tiền bản vị của Ethereum, dùng để thanh toán phí cho các Validators để duy trì mạng lưới.
+*   **Gas**: Đơn vị đo lường năng lượng tính toán cần thiết để thực thi các dòng lệnh trong hợp đồng thông minh. Mỗi dòng lệnh (opcode) trong Solidity tiêu thụ một lượng Gas định trước (ví dụ: phép toán cộng tiêu tốn ít Gas hơn phép toán lưu dữ liệu vào State DB).
+*   *Mục đích*: Việc thu phí Gas bắt buộc các nhà phát triển phải viết code tối ưu hiệu năng, ngăn chặn hành vi gửi giao dịch spam hoặc tạo vòng lặp vô hạn (Infinite Loop) làm nghẽn mạng lưới.
+
+### 🌐 Các giao thức phụ trợ trong Web3 Stack
+Bên cạnh blockchain Ethereum xử lý các giao dịch tài chính, Web3 Stack tích hợp các giao thức phụ trợ phi tập trung:
+*   **Swarm**: Nền tảng lưu trữ và chia sẻ tệp phi tập trung P2P (tương tự IPFS hoặc BitTorrent). Dữ liệu được chia nhỏ, mã hóa và phân tán tại các máy tính chạy nút. Hệ thống sử dụng ETH làm phần thưởng khuyến khích cho các nút lưu trữ dữ liệu hộ người dùng khác.
+*   **Whisper**: Giao thức nhắn tin ngang hàng (P2P) được mã hóa an toàn, cho phép các nút truyền tin trực tiếp với nhau mà không tiết lộ danh tính người gửi/người nhận cho các bên thứ ba.
