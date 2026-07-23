@@ -55,6 +55,7 @@ graph TD
 *   [Tổng Quan Kiến Trúc Blockchain](docs/blockchain/overview.md): Cấu trúc khối, cơ chế đồng thuận (PoW, PoS, DPoS, PBFT) và mô hình sổ cái (UTXO vs Account).
 *   [Bản Đồ Công Cụ Lập Trình](docs/blockchain/developer-tools.md): Tổng hợp IDE, SDK, và thư viện phát triển blockchain theo ngôn ngữ (JS, Go, Python, Rust, C++).
 *   [Hợp Đồng Thông Minh & DeFi](docs/blockchain/smart-contracts-defi.md): Tiêu chuẩn token (ERC-20, ERC-721), quy tắc bảo mật và ứng dụng RWA trong tích sản tài chính.
+*   [Series Học Tập Ứng Dụng Crypto](docs/blockchain/crypto-applications-series.md): Lộ trình học tập phân loại ứng dụng từ Giá trị thấp (Đầu cơ) đến Giá trị cao (Utility, RWA, DePIN).
 
 ---
 
