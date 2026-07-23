@@ -57,7 +57,7 @@ Chào mừng bạn đến với **Series học tập ứng dụng công nghệ C
 *   **Tại sao giá trị trung bình?**: Giúp người dân ở các quốc gia lạm phát cao bảo vệ tài sản bằng USD mà không cần mở tài khoản ngoại tệ phức tạp tại ngân hàng. Giao dịch tức thời 24/7 không qua kiểm duyệt trung gian.
 *   **Điểm cốt lõi cho người mới**: Học cách lưu giữ cụm từ khôi phục ví (Seed Phrase) an toàn và hiểu khái niệm "Không giữ chìa khóa, không phải tiền của bạn" (Not your keys, not your coins).
 
-### 📝 Bài 5: Cho vay & Cung cấp Thanh khoản (DeFi Lending & AMM)
+### 📝 [Bài 5: Cho vay & Cung cấp Thanh khoản (DeFi Lending & AMM)](lessons/lesson-5-defi-lending.md)
 *   **Bản chất**: Gửi tài sản vào các giao thức phi tập trung để nhận lãi suất, hoặc thế chấp tài sản để vay tiền tự động (Aave, Uniswap).
 *   **Tại sao giá trị trung bình?**: Cắt bỏ hoàn toàn ngân hàng trung gian. Lãi suất được xác định tự động bởi thuật toán cung - cầu. Người dùng có thể vay tiền ngay lập tức mà không cần chứng minh thu nhập hay chấm điểm tín dụng.
 *   **Điểm cốt lõi cho người mới**: Hiểu về rủi ro thanh lý tài sản thế chấp khi giá biến động và rủi ro lỗi hợp đồng thông minh (smart contract hack).
