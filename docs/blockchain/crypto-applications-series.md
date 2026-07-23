@@ -52,7 +52,7 @@ Chào mừng bạn đến với **Series học tập ứng dụng công nghệ C
 ## 💰 LEVEL 2: Giá Trị Gia Tăng Trung Bình (Financial Freedom & Utility)
 *Ứng dụng bắt đầu giải quyết các bài toán tài chính cá nhân và bảo mật dữ liệu, giúp người dùng tự làm chủ tài sản mà không cần qua ngân hàng.*
 
-### 📝 Bài 4: Stablecoin & Ví Không Lưu Ký (Non-Custodial Wallet)
+### 📝 [Bài 4: Stablecoin & Ví Không Lưu Ký (Non-Custodial Wallet)](lessons/lesson-4-wallets-stablecoins.md)
 *   **Bản chất**: Lưu trữ USD số (USDT, USDC) trên ví cá nhân tự quản lý khóa bảo mật (như ví Trust Wallet, MetaMask).
 *   **Tại sao giá trị trung bình?**: Giúp người dân ở các quốc gia lạm phát cao bảo vệ tài sản bằng USD mà không cần mở tài khoản ngoại tệ phức tạp tại ngân hàng. Giao dịch tức thời 24/7 không qua kiểm duyệt trung gian.
 *   **Điểm cốt lõi cho người mới**: Học cách lưu giữ cụm từ khôi phục ví (Seed Phrase) an toàn và hiểu khái niệm "Không giữ chìa khóa, không phải tiền của bạn" (Not your keys, not your coins).
