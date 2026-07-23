@@ -32,7 +32,7 @@ Chào mừng bạn đến với **Series học tập ứng dụng công nghệ C
 ## 🎲 LEVEL 1: Giá Trị Gia Tăng Thấp (Speculation & Basic Entertainment)
 *Ở cấp độ này, ứng dụng chủ yếu mang tính đầu cơ, giải trí hoặc bắt chước lại những gì hệ thống truyền thống đã làm rất tốt.*
 
-### 📝 Bài 1: Thanh toán & Chuyển tiền cơ bản (Peer-to-Peer Transfer)
+### 📝 [Bài 1: Thanh toán & Chuyển tiền cơ bản (Peer-to-Peer Transfer)](lessons/lesson-1-p2p-payments.md)
 *   **Bản chất**: Gửi coin từ ví A sang ví B (Bitcoin, Litecoin).
 *   **Tại sao giá trị thấp?**: Hệ thống ngân hàng truyền thống và ví điện tử (Momo, Apple Pay, Venmo) hiện nay đã xử lý chuyển tiền nội địa cực kỳ nhanh, an toàn và gần như miễn phí. Crypto chỉ thực sự có giá trị khi chuyển tiền xuyên biên giới (cross-border) nhưng gặp rào cản lớn về biến động giá mạnh.
 *   **Điểm cốt lõi cho người mới**: Hiểu cách hoạt động của địa chỉ ví, khóa công khai/bí mật và cách xác nhận giao dịch trên chuỗi.
