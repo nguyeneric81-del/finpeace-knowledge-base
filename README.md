@@ -51,6 +51,11 @@ graph TD
     *   [Chiến Lược Quản Trị Vốn](docs/layer-3-advanced/risk-money-management/position-sizing-strategies.md): Quản trị rủi ro và quy mô vị thế theo Ralph Vince & Ryan Jones (*Money Management*).
     *   [Kiểm Soát Tâm Lý Giao Dịch](docs/layer-3-advanced/risk-money-management/emotion-free-trading-habits.md): Rèn luyện thói quen giao dịch không cảm xúc từ *Secrets of Emotion Free Trading*.
 
+### 🌐 5. Tài Sản Số & Blockchain (Digital Assets & Blockchain)
+*   [Tổng Quan Kiến Trúc Blockchain](docs/blockchain/overview.md): Cấu trúc khối, cơ chế đồng thuận (PoW, PoS, DPoS, PBFT) và mô hình sổ cái (UTXO vs Account).
+*   [Bản Đồ Công Cụ Lập Trình](docs/blockchain/developer-tools.md): Tổng hợp IDE, SDK, và thư viện phát triển blockchain theo ngôn ngữ (JS, Go, Python, Rust, C++).
+*   [Hợp Đồng Thông Minh & DeFi](docs/blockchain/smart-contracts-defi.md): Tiêu chuẩn token (ERC-20, ERC-721), quy tắc bảo mật và ứng dụng RWA trong tích sản tài chính.
+
 ---
 
 ## 🛠️ Bộ Công Cụ & Quản Trị
